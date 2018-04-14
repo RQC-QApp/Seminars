@@ -1,15 +1,39 @@
-## Введение в квантовые вычисления. Семинары
+## Введение в квантовые вычисления. Семинары <img src="img/rqc.png" href='http://rqc.ru/' width='15%'>
+---
 
-### Содержание:
+### Содержание
 - Введение:
-    - [[intro_to_qc.ipynb](01_Introduction/intro_to_qc.ipynb)]
+    1. [[intro_to_qc.ipynb](01_Introduction/intro_to_qc.ipynb)]
         - Основные понятия из линейной алгебры
         - Принципы квантовой механики
 - Вычисления с помощью [QISKit](https://qiskit.org)'a и облачной платформы [IBM Q Experience](https://quantumexperience.ng.bluemix.net):
+    1. Настройка соединения с API сервисов IBMQX: [[ibm_setup.md](02_IBM_QISKit/ibm_setup.md)]
     - [[ibm_intro.ipynb](02_IBM_QISKit/ibm_intro.ipynb)]
         - Базовые операции, гейты
         - Представление результатов
 - Вычисления с помощью [pyQuil](http://pyquil.readthedocs.io)'a, [Grove](http://grove-docs.readthedocs.io) и облачной платформы [Forest](https://www.rigetti.com/forest) от [Rigetti](https://www.rigetti.com):
+    1. Настройка соединения с API сервисов Rigetti Forest: [[rigetti_setup.md](03_Rigetti_pyQuil/rigetti_setup.md)]
     - [[rigetti_intro.ipynb](03_Rigetti_pyQuil/rigetti_intro.ipynb)]
         - Базовые операции, гейты
         - Представление результатов
+
+
+### Зависимости
+
+Для работы с семинарами необходимо наличие следующих Python-пакетов:
+
+- [NumPy](http://www.numpy.org) >=1.13.3
+- [SciPy](https://scipy.org) >=1.0.0
+- [pyQuil](http://pyquil.readthedocs.io) >=1.6.2
+- [QISKit](https://qiskit.org) >=0.4.9
+
+Можно установить командой:
+```
+$ pip install -r requirements.txt
+```
+
+### Авторы
+
+Антон Каразеев, &lt;YOUR NAME COULD BE HERE&gt;
+
+Помощь приветствуется - сделай [форк](https://guides.github.com/activities/forking/) этого репозитория, а затем запроси [PR](https://help.github.com/articles/about-pull-requests/) :)
