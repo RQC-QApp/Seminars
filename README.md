@@ -1,5 +1,4 @@
-## Введение в квантовые вычисления. Семинары <img src="img/rqc.png" href='http://rqc.ru/' width='15%'>
----
+## Введение в квантовые вычисления. Семинары <img src="img/rqc.png" href='http://rqc.ru/' width='15%' align='right'>
 
 ### Содержание
 - Введение:
@@ -8,12 +7,12 @@
         - Принципы квантовой механики
 - Вычисления с помощью [QISKit](https://qiskit.org)'a и облачной платформы [IBM Q Experience](https://quantumexperience.ng.bluemix.net):
     1. Настройка соединения с API сервисов IBMQX: [[ibm_setup.md](02_IBM_QISKit/ibm_setup.md)]
-    - [[ibm_intro.ipynb](02_IBM_QISKit/ibm_intro.ipynb)]
+    2. [[ibm_intro.ipynb](02_IBM_QISKit/ibm_intro.ipynb)]
         - Базовые операции, гейты
         - Представление результатов
 - Вычисления с помощью [pyQuil](http://pyquil.readthedocs.io)'a, [Grove](http://grove-docs.readthedocs.io) и облачной платформы [Forest](https://www.rigetti.com/forest) от [Rigetti](https://www.rigetti.com):
     1. Настройка соединения с API сервисов Rigetti Forest: [[rigetti_setup.md](03_Rigetti_pyQuil/rigetti_setup.md)]
-    - [[rigetti_intro.ipynb](03_Rigetti_pyQuil/rigetti_intro.ipynb)]
+    2. [[rigetti_intro.ipynb](03_Rigetti_pyQuil/rigetti_intro.ipynb)]
         - Базовые операции, гейты
         - Представление результатов
 
