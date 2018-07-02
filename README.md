@@ -15,6 +15,9 @@
     2. [[rigetti_intro.ipynb](03_Rigetti_pyQuil/rigetti_intro.ipynb)]
         - Базовые операции, гейты
         - Представление результатов
+- Вычисления с помощью Q# -- квантового языка программирования от Microsoft:
+    1. Настройка среды разработки [[microsoft_setup.md for MacOS](04_Microsoft_QSharp/microsoft_setup.md)]
+    2. Состояние Белла [[BellState](04_Microsoft_QSharp/BellState)]
 
 
 ### Зависимости
@@ -31,8 +34,10 @@
 $ pip install -r requirements.txt
 ```
 
+А также потребуются Visual Studio Code и .NET-пакеты (для языка программирования Q# от Microsoft).
+
 ### Авторы
 
 Антон Каразеев, &lt;YOUR NAME COULD BE HERE&gt;
 
-Помощь приветствуется - сделай [форк](https://guides.github.com/activities/forking/) этого репозитория, а затем запроси [PR](https://help.github.com/articles/about-pull-requests/) :)
+Помощь приветствуется - сделай [форк](https://guides.github.com/activities/forking/) этого репозитория, а затем запроси [PR](https://help.github.com/articles/about-pull-requests/) 🙂
